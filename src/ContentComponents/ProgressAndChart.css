@@ -1,0 +1,90 @@
+.cards{
+    font-family: 'Montserrat', sans-serif; /* Modern and professional font */
+    list-style: none;
+    padding: 0;
+    width: 25%;
+}
+.progress-Chart-container{
+    margin-inline: 50px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+h3{
+    margin: 5px;
+    font-weight: lighter;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding:20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+
+}
+.bar{
+    background:white;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 20px;
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.24);
+
+}
+.bar span{
+    height: 15px;
+    float: left;
+    background: black
+}
+.Beds{
+    width: 90%;
+    animation: Beds 3s;
+}
+.rooms{
+    width: 85%;
+    animation: rooms 3s;
+}
+.ICU{
+    width: 80%;
+    animation: ICU 3s;
+}
+@keyframes Beds{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes rooms{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes ICU{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}   
+.chart-container{
+    width: 50%;
+    margin-left: 154px;
+    font-family: 'Montserrat', sans-serif; 
+}

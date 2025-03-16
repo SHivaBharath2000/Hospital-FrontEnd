@@ -1,0 +1,101 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .active {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .pending {
+    color: orange;
+    font-weight: bold;
+  }
+.table-container{
+    border: 2px solid #e5e7eb; 
+    font-family: 'Montserrat', sans-serif;
+    margin-inline: 49px;
+    width: 70%;
+}  
+
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 16px;
+
+}
+.search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px 8px 36px; /* Increased left padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.71 20.29l-5.3-5.3a8.5 8.5 0 1 0-1.42 1.42l5.3 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z' fill='%23666'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px 8px 36px; /* Increased left padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.71 20.29l-5.3-5.3a8.5 8.5 0 1 0-1.42 1.42l5.3 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z' fill='%23666'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    height: 34px;
+    margin-top: 10px;
+  }
+  
+  .search-input:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  .whole-container{
+    display: flex;
+    height: 195px;
+  }
+  .fa-solid :hover{
+    transition: "transform 0.3s ease";
+    transform: "scale(1.2)";
+    cursor: pointer;
+                    
+  }
+  .pagination {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  }

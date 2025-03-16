@@ -1,0 +1,70 @@
+.title{
+    margin-inline: 49px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    height: 8em;
+    border-bottom: 2px solid;
+    border-color: #e5e7eb;
+}
+.title-first{
+    display: flex;
+}
+.title-names{
+    font-family: 'Montserrat', sans-serif; /* Modern and professional font */
+    font-size: 24px; /* Adjust size as needed */ 
+}
+.title-para{
+    margin: 0;
+    font-size: smaller;
+    font-weight: 100;
+    color: black;
+}
+.title-second{
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.title-second-header{
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+.title-button{
+    width: 172px;
+    margin-top: 20px;
+    background: black;
+    height: 45%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.title-button-img{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+     margin: 0;
+    
+}
+.fa-solid{
+    color: white;
+    font-size: large;
+}
+.button-inner{
+    display: flex;
+ margin-top: 11px;
+}
+.header-second{
+    margin-inline: 49px;
+}
+.header-second>h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 17px;
+}

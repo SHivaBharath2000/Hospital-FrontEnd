@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    padding: 20px;
+    margin-top: 70px;
+}
+.footer-h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: black !important;
+}
+p{
+  color: white;
+  font-family: 'Montserrat', sans-serif; 
+}
